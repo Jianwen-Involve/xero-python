@@ -244,6 +244,7 @@ class User(BaseModel):
         :type: str
         """
         allowed_values = [
+            "REMOVED",
             "READONLY",
             "INVOICEONLY",
             "STANDARD",
